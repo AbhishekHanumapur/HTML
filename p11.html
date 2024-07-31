@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Formating Tags  </title>
+    </head>
+    <body>
+        <center><h1>HTML FORMATTING TAGS</h1></center>
+        <hr>
+        <h2>Monospaced,Code,KBD and Pre Tag</h2>
+        <hr>
+        <h3>Monospaced tag example</h3>
+        <p>The element was used to identify text to be displayed using the browser's default monospace or fixed-width font as it would appear on a fixed-width device such as a teletype.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ratione omnis magnam dolor? Cupiditate quaerat laborum exercitationem quasi, accusantium ut architecto deserunt tempora in rerum ipsam incidunt, nisi eligendi. Quidem.<tt>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet officiis sit quos in. Maiores minus inventore ex repudiandae corporis consectetur cumque vel tempora culpa, placeat sequi! Quam omnis expedita sed!</tt></p>
+        <hr> 
+        <h3>Code tag example</h3>
+        <p>used to write other language code</p>
+        <code>
+            #include stdio.h
+                int main() {
+                  double first, second, temp;
+                  printf("Enter first number: ");
+                  scanf("%lf", &first);
+                  printf("Enter second number: ");
+                  scanf("%lf", &second);
+                
+                  // value of first is assigned to temp
+                  temp = first;
+                
+                  // value of second is assigned to first
+                  first = second;
+                
+                  // value of temp (initial value of first) is assigned to second
+                  second = temp;
+                
+                  // %.2lf displays number up to 2 decimal points
+                  printf("\nAfter swapping, first number = %.2lf\n", first);
+                  printf("After swapping, second number = %.2lf", second);
+                  return 0;
+                }
+        </code>
+        <hr> 
+        <h3>pre tag example</h3>
+        <p>The pre element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.</p>
+        <pre>
+            <code>
+            #include stdio.h
+                int main() {
+                  double first, second, temp;
+                  printf("Enter first number: ");
+                  scanf("%lf", &first);
+                  printf("Enter second number: ");
+                  scanf("%lf", &second);
+                
+                  // value of first is assigned to temp
+                  temp = first;
+                
+                  // value of second is assigned to first
+                  first = second;
+                
+                  // value of temp (initial value of first) is assigned to second
+                  second = temp;
+                
+                  // %.2lf displays number up to 2 decimal points
+                  printf("\nAfter swapping, first number = %.2lf\n", first);
+                  printf("After swapping, second number = %.2lf", second);
+                  return 0;
+                }
+            </code>
+        </pre>
+        <hr>
+        <h3>KBD tag example</h3>
+        <p>this is keyboard tag</p>
+        <p>CTRL + C</p>
+        <p>CTRL + V</p>
+        <p><kbd>CTRL + C</kbd></p>
+        <p><kbd>CTRL + V</kbd></p>
+    </body>
+</html>
